@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.click-box {
+    width: 200px;
+    height: 200px;
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.click-box:hover {
+    background-color: #0056b3;
+}
